@@ -4,7 +4,7 @@
 
 body { 
 
-    font-family: Arial, sans-serif; 
+    font-family: Arial, serif; 
 
     margin: 0; 
 
@@ -34,7 +34,7 @@ nav {
 
 nav a { 
 
-    color: white; 
+    color: plum; 
 
     text-decoration: none; 
 
@@ -58,7 +58,7 @@ header {
 
     background-color: #af4caf; 
 
-    color: white; 
+    color: plum; 
 
     padding: 30px; 
 
@@ -88,7 +88,7 @@ footer {
 
     background-color: #af4caf; 
 
-    color: white; 
+    color: plum; 
 
     text-align: center; 
 
