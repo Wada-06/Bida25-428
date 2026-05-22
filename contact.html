@@ -1,135 +1,82 @@
-<!DOCTYPE html> 
-
-<html lang="en"> 
-
-<head> 
-
-    <meta charset="UTF-8"> 
-
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
-
-    <title>Page Title</title> 
-
-</head> 
-
-<body> 
-    <nav> 
-
-    <a href="index.html">Home</a> 
-
-    <a href="about.html">About</a> 
-
-    <a href="projects.html">Projects</a> 
-
-    <a href="service.html">Service</a> 
-
-    <a href="testimonial.html">Testimonial</a>
-
-    <a href="contact.html">Contact</a>
-
-</nav> 
-
-    <<header> 
-
-    <h1>267 74304717</h1> 
-
-    <p>We would love to hear from you!</p> 
-
-</header> 
-
- 
-
-<main> 
-
-    <section> 
-
-        <h2>Get in Touch</h2> 
-
-         
-
-        <div> 
-
-            <h3>Email</h3> 
-
-            <p><tumomorebodi25 class="gmail com"></tumomorebodi25></p> 
-
-        </div> 
-
-         
-
-        <div> 
-
-            <h3>Social Media</h3> 
-
-            <p> 
- 
-                <a href="https://WhatsApp.com/267 74304717">WhatsApp</a> |
-
-
-            </p> 
-
-        </div> 
-
-         
-
-        <div> 
-
-            <h3>Location</h3> 
-
-            <p>Gaborone, Botswana</p> 
-
-        </div> 
-
-    </section> 
-
-     
-
-    <section> 
-
-
-            <div> 
-
-                <label for="name">Everafter Ensembles:</label><br> 
-
-                <input type="text" id="name" name="name" required> 
-
-            </div> 
-
-            <br> 
-
-            <div> 
-
-                <label for="email">tumomorebodi@gmail.com:</label><br> 
-
-                <input type="email" id="email" name="email" required> 
-
-            </div> 
-
-            <br> 
-
-            <div> 
- 
-
-                <textarea id="message" name="message" rows="5" cols="30" required></textarea> 
-
-            </div> 
-
-            <br> 
-
-           
-    
-    </section> 
-
-</main> 
-
- 
-
-<footer> 
-
-    <p>&copy; 2026 Everafter Ensembles</p> 
-
-</footer>
-
-</body> 
-
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact - Everafter Ensembles</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <style>
+        .contact-form {
+            background: #fff;
+            padding: 40px;
+            border-radius: 8px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.05);
+        }
+    </style>
+</head>
+<body>
+
+    <nav class="navbar navbar-expand-lg main-navigation">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">
+                <img src="image/logo.png" alt="Everafter Ensembles Logo">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+                    <li class="nav-item"><a class="nav-link" href="services.html">Services</a></li>
+                    <li class="nav-item"><a class="nav-link" href="gallery.html">Gallery</a></li>
+                    <li class="nav-item"><a class="nav-link" href="testimonials.html">Testimonials</a></li>
+                    <li class="nav-item"><a class="nav-link active" href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <header class="intro-banner fade-in" style="padding: 50px 0;">
+        <div class="container">
+            <h1>Contact Us</h1>
+            <p>We would love to hear from you. Book an appointment today.</p>
+        </div>
+    </header>
+
+    <section class="content-section fade-in">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-md-8">
+                    <form id="contactForm" class="contact-form">
+                        <div class="mb-3">
+                            <label for="name" class="form-label">Full Name</label>
+                            <input type="text" class="form-control" id="name" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="email" class="form-label">Email Address</label>
+                            <input type="email" class="form-control" id="email" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="message" class="form-label">Your Message / Inquiry</label>
+                            <textarea class="form-control" id="message" rows="5" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary-custom">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="site-footer">
+        <div class="container">
+            <p>&copy; 2026 Everafter Ensembles. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="script.js"></script>
+</body>
 </html>
+
